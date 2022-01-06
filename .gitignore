@@ -27,3 +27,6 @@ npm-debug.log
 # IDEs stuff
 .idea
 .vscode
+
+# Log files
+*.log

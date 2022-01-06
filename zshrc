@@ -6,18 +6,16 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(
-  brew
-  cargo
-  docker
-  docker-compose
-  git
-  golang
-  kubectl
-  npm
-  rust
-  rustup
-  sudo
-  terraform
+	brew
+	docker
+	docker-compose
+	git
+	golang
+	kubectl
+	npm
+	rust
+	sudo
+	terraform
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -27,5 +25,4 @@ zstyle :prompt:pure:git:stash show yes
 prompt pure
 
 export LANG=en_US.UTF-8
-
 [ -f ~/.zsh.local ] && source ~/.zsh.local || true

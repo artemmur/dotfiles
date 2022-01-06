@@ -17,5 +17,11 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'farmergreg/vim-lastplace'
 Plugin 'easymotion/vim-easymotion'
 
+Plugin 'fatih/vim-go'
+
+Plugin 'nvie/vim-flake8'
+
+Plugin 'tarekbecker/vim-yaml-formatter'
+
 call vundle#end()
 filetype plugin indent on
