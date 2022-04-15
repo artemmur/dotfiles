@@ -10,11 +10,12 @@ Clone repo
 Create symlinks
 
     mkdir -p ~/.vim/colors
-    ln -s ~/dotfiles/.vim/colors/jellybeans.vim ~/.vim/colors/jellybeans.vim
-    ln -s ~/dotfiles/.vim/plugins.vim ~/.vim/plugins.vim
-    ln -s ~/dotfiles/.vim/mapping.vim ~/.vim/mapping.vim
-    ln -s ~/dotfiles/.vimrc ~/.vimrc
-    ln -s ~/dotfiles/.zshrc ~/.zshrc
+
+    ln -s ~/.dotfiles/.vim/colors/jellybeans.vim ~/.vim/colors/jellybeans.vim \
+    ln -s ~/.dotfiles/.vim/plugins.vim ~/.vim/plugins.vim \
+    ln -s ~/.dotfiles/.vim/mapping.vim ~/.vim/mapping.vim \
+    ln -s ~/.dotfiles/.vimrc ~/.vimrc \
+    ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 Install Vundle
 
